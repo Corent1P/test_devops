@@ -37,4 +37,6 @@ clean:
 fclean:	clean
 	rm -f $(NAME)
 
+tests_run: clean
+
 re:	fclean / all
